@@ -1,0 +1,388 @@
+
+
+@font-face {
+    font-family: RedHatDisplay-SemiBold;
+    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-SemiBold.ttf
+    );
+
+}
+@font-face {
+    font-family: RedHatDisplay-Light;
+    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: RedHatDisplay-Medium ;
+    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: RedHatDisplay-Regular;
+    src: url(fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf);
+}
+*{  margin: 0;
+    padding: 0;}
+
+body {background: #fff8f8;}
+
+ul li{list-style: none;}
+
+img{max-width: 100%;
+height: auto;}
+.main-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 65px;
+    border-radius: 4rem; }
+    .primary-button {border: hidden;
+        background-color: #FA5652;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: RedHatDisplay-SemiBold;
+        width: 250px;
+        box-shadow: 0px 8px 87px 0px #0000001A;
+        padding-block: 2rem;
+        margin-inline: 6rem;
+         margin-block: 2rem;
+        font-weight: 700;
+        line-height: 28.79px;
+        text-align: center;
+        border-radius: 65px 65px 65px 65px;
+        background: #FB4C47;
+         }
+      
+      .third-button {
+        border: 2px solid #FA5652;
+        width: 154px;
+        color: #FA5652;
+        font-size: 1.125rem;
+    text-decoration: none; }
+      
+      .secondary-button {
+        background-color: rgba(250, 86, 82, 0.15);
+        width: 200px;
+        color: #FA5652;
+        font-size: 1.25rem;
+    text-decoration: none; }
+        .navbar .navbar-brand span {
+            display: inline-block;
+            color: #035755;
+            font-size: 1.1875rem;
+            -webkit-margin-start: 0.5rem;
+               -moz-margin-start: 0.5rem;
+            margin-inline-start: 0.5rem; }
+          .navbar .navbar-collapse {
+            -webkit-box-flex: 0;
+                -ms-flex-positive: 0;
+                    flex-grow: 0; }
+            .navbar .navbar-collapse .navbar-nav {
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center; }     
+                      .navbar .navbar-collapse .navbar-nav .nav-item:not(:last-child) {
+                        -webkit-margin-end: 2rem;
+                           -moz-margin-end: 2rem;
+                                margin-inline-end: 2rem; }
+                      .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+                        .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+                          color: #FA5652; }
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+position: relative;
+color: #FA5652; }
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after {
+content: '';
+position: absolute;
+bottom: -4px;
+left: 50%;
+width: 6px;  height: 6px;
+ border-radius: 50%;
+ -webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+    background-color: #FA5652; }
+
+    /* stayhome */
+
+.stayhome{position: relative;
+display: flex;
+}
+
+.stayhome img {padding-block: 7rem;
+    max-width: 100%;
+    height: auto;
+}
+ .stayhome .container{
+padding-block: 10rem;}
+
+.stayhome .container h6{font-family: RedHatDisplay-SemiBold;
+    color:#FB4C47;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.04px;
+    text-align: left;padding-inline: 6rem;
+    }
+.stayhome .container h3{font-family: RedHatDisplay-SemiBold;
+    color: #035755;
+    ;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 72.28px;
+    text-align: left;padding-inline: 6rem;
+    }
+.stayhome .container p{font-family: RedHatDisplay-SemiBold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45.6px;
+    text-align: left;
+    color: #4B4F51;padding-inline: 6rem;
+}
+
+/* corona */
+
+.corona{position: relative;margin-bottom: 4rem;}
+.corona h3{padding-inline: 2rem;
+    color: #FA5652;
+    font-family: RedHatDisplay-SemiBold;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 35.96px;
+    text-align: left;
+    }
+.corona h2{padding-inline: 2rem;font-family: RedHatDisplay-SemiBold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59.5px;
+    text-align: left;
+    color: #035755;
+}
+.corona p{padding-inline: 2rem;
+    font-family: Gelion;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: left;
+    color: #4B4F51;
+}
+.corona a{margin-inline: 2rem;}
+
+    .corona h2 {
+        margin-block: 0.5rem 1.5rem; }
+      .corona .main-button {
+        margin-top: 2rem; }
+      .corona .tinyimg {
+        position: absolute;
+        bottom: -100px;
+        right: 50px; }
+      .corona .side-img {
+        position: absolute;
+        bottom: 16px;
+        right: 0; }   
+
+/* covid */
+.covidd .container {
+width: 80%;
+margin-inline: auto;}
+.covidd .card-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 2rem;
+ position: relative;}
+
+ .covidd .container .card-container .cardavtive{display: flex;
+    border-bottom: 4px solid #fa5652;}
+.covidd h4{font-family: RedHatDisplay-SemiBold;
+    color: #FA5652;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 35.96px;
+    text-align: center;}
+
+.covidd h3{font-family: RedHatDisplay-SemiBold;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 59.5px;
+        text-align: center;
+        color: #035755;}
+.covidd .covidp{font-family: RedHatDisplay-SemiBold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 38.7px;
+    text-align: center;
+    padding-inline: 19rem;
+    color: #4B4F51}    
+
+
+      
+    
+.card{box-shadow: 0px 35px 87px 0px #0000001C;
+    border-color: #FFFFFF;
+    
+    box-shadow: 0px 35px 87px 0px #0000001C;
+    border-radius: 10px 0px 0px 0px;}
+.card-details h6{font-family: RedHatDisplay-SemiBold;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52.92px;
+    text-align: center;
+    color: #035755;
+}
+
+.card-details p{font-family: RedHatDisplay-SemiBold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.3px;
+    text-align: center;
+    color: #4B4F51;
+}
+    
+    /* what should we do  */
+.shoulddo .container{padding-top: 7rem;}
+.shoulddo{margin-block: 5rem;}
+.cardsec{display: flex;margin-block: 10rem;}
+
+.shoulddo .cov{font-family: RedHatDisplay-SemiBold;
+    font-size: 50px;
+    line-height: 59.5px;
+    text-align: center;
+    color: #FA5652;}
+
+.shoulddo .covh{font-family: RedHatDisplay-SemiBold;
+    font-size: 50px;
+    line-height: 59.5px;
+    text-align: center;
+    color: #035755;
+}
+.shoulddo .covp{font-family: RedHatDisplay-Regular;
+    padding-inline: 20rem;
+    font-size: 18px;
+    line-height: 38.7px;
+    text-align: center;
+    color: #4B4F51;}
+
+
+    .cardsec p{margin-inline: 17rem;
+        font-family: RedHatDisplay-Regular;
+        font-size: 18px;
+        line-height: 39.78px;
+        text-align: left;
+       color: #4B4F51;}
+    .cardsec h4{margin-inline: 17rem;
+        font-family: RedHatDisplay-Medium ;
+        font-size: 47px;
+        line-height: 69.09px;
+        text-align: left;
+        color: #035755;
+    }
+.imgleft{position: relative;}
+.imgleft img {position: absolute;
+    padding-inline: 11rem;}
+
+ .cardsec .pathgtwo{position: absolute;
+    left: 0rem }
+
+.shoulddo .hands{display: flex;}
+.hands{position: relative;}
+.hands h4{font-family: RedHatDisplay-Medium ;
+    font-size: 47px;
+    line-height: 69.09px;
+    text-align: left;
+    color: #035755;padding-inline: 8rem;}
+.hands p{font-family: RedHatDisplay-Regular;
+    font-size: 18px;
+    line-height: 39.78px;
+    text-align: left;
+    color: #4B4F51;padding-inline: 8rem;
+}   
+.washhand{position: relative;margin-left: 15rem;}
+.washhand img{position: absolute;
+left: 2rem;}
+.washhand .no4{padding-block: 1rem;
+ padding-inline: 0.5rem;
+}
+
+.shoulddo .small {top: 256rem;
+    position: absolute;
+    right: 50px; }
+  .shoulddo .side-img {bottom: -241rem;
+    position: absolute;
+    right: 0; }   
+/* question */
+
+.Have-Question{margin-block: 5rem;}
+.Have-Question .container{position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;}
+
+.Have-Question .questext{text-align: center;
+    font-family: RedHatDisplay-Medium ;
+    font-size: 64px;
+    line-height: 76.78px;
+    text-align: center;
+    color: #0C6C44;padding-block: 2rem;}
+
+.Have-Question .container form{display: flex;padding-block: 1rem;
+    width: 474px;
+     border-radius: 50px;
+    gap: 20px;}
+form input[type='email']{border-radius: 57px;
+    height: 8rem;
+    outline: white;
+    width: 36rem;border: medium;
+}
+    form input[type='submit']{width: 180px;
+        margin-block: 2rem;
+        border: hidden;
+        height: 73px;
+        outline: white;
+        margin-inline: -14rem;
+        left: 1129px; 
+        border-radius: 157px 157px 157px 157px;
+        background: #F44A45;
+        color: #FFFFFF;
+        font-family: RedHatDisplay-Medium ;
+font-size: 22px;
+line-height: 26.39px;
+text-align: center;}
+.Have-Question .sideques{position: absolute;
+    left: 73.6rem;
+    opacity: 0.1px; }
+
+  .Have-Question .smallone{
+    position: absolute;
+    top: 0.18px;
+    left: 62.5rem;
+    opacity: 0.1px;}
+
+
+/* footer */
+footer{position: relative;
+margin-block: 3rem;}
+footer span{font-family: RedHatDisplay-SemiBold;
+    font-size: 22px;
+    line-height: 29.11px;
+    
+    color: #035755;
+}
+.navbar-nav{margin-inline: 4rem;}
+ul li{font-family: RedHatDisplay-Regular;
+    font-size: 23px;
+    
+    line-height: 27.59px;
+    color: #00402E;
+}
+.copyright{text-align: center;
+    font-family: RedHatDisplay-Regular;
+    font-size: 23px;
+    margin-block: 3rem;
+    line-height: 27.59px;
+    color: #415E56;}
+
+
